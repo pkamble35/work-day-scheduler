@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     function initialize() {
-        $('#currentDay').text(moment().format('LLL'));
+        $('#currentDay').text(moment().format('LL'));
         var eventList = $('.description');
         var currentTime = moment().hour();
         eventList.each(function( index ) {
