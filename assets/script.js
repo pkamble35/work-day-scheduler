@@ -5,12 +5,12 @@ $(document).ready(function () {
         var eventList = $('.description');
         var currentTime = moment().hour();
         eventList.each(function( index ) {
-            var timeBlock = $( this ).parent().attr('time-attr');
+            var timeBlock = parseInt($( this ).parent().attr('time-attr'));
             if(localStorage.getItem(timeBlock)){
                 $( this ).html( localStorage.getItem(timeBlock));
             }
-            if(timeBlock == currentTime){
-                $( this ).addClass('current');
+            if(timeBlock === currentTime){
+                $( this ).addClass('present');
             }
             else if (timeBlock < currentTime) {
                 $( this ).addClass('past');
