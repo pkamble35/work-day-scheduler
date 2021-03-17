@@ -25,7 +25,7 @@ Deployed Link :  https://pkamble35.github.io/work-day-scheduler/
 
 ![Alt text](./assets/page02.JPG)
 
-#License
+# License
 The MIT License (MIT)
 
 Copyright (c) 2021 Priyanka Damodar
