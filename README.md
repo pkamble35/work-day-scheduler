@@ -1,4 +1,4 @@
-# work-day-scheduler
+# Work Day Scheduler
 
 Given a schedular where i had updated a Date at the top, on a daily basis.
 
@@ -10,6 +10,11 @@ User can enter an event and click the save button for that timeblock.
 
 THEN the text for that event is saved in local storage and can refresh the page.
 
+Technologies:
+  1. HTML
+  2. CSS
+  3. Javascript
+  4. Jquery
 
 
 Deployed Link :  https://pkamble35.github.io/work-day-scheduler/
